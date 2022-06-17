@@ -1,5 +1,5 @@
 import { html, LitElement, TemplateResult } from 'lit'
-import { customElement, state } from 'lit/decorators'
+import { customElement, state } from 'lit-element'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type TTemplateResultFunction = (...args: any[]) => TemplateResult
